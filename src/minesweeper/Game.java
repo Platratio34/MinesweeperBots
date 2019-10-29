@@ -139,7 +139,11 @@ public class Game {
 		System.out.println(flaggedBoombs + "/" + boombs);
 		for(int x=-2;x<w;x++) {
 			if(x>=0) {
-				System.out.print(x+" |");
+				if() {
+					System.out.print("0"+x+" |");
+				} else {
+					System.out.print(x+" |");
+				}
 			} else {
 				System.out.print("   ");
 			}
